@@ -1,0 +1,8 @@
+.app {
+  display: flex;
+}
+
+canvas {
+  /* background-color: red; */
+  position: absolute;
+}
