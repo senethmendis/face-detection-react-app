@@ -8,7 +8,7 @@ frameworks/libraries used for theproject..
 
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-- ![face-api.js](https://github.com/justadudewhohacks/face-api.js?tab=readme-ov-file#getting-started-loading-models)
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js?tab=readme-ov-file#getting-started-loading-models)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
