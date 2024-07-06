@@ -6,8 +6,19 @@ const NewPost = ({ image }) => {
   const [faces, setFaces] = useState([]);
   const [friends, setFriends] = useState([]);
 
+  const checkSize = () => {
+    if (width > 100) width / 2;
+    if (height > 100) height / 2;
+  };
+
+  checkSize;
+
   const imgRef = useRef();
   const canvasRef = useRef();
+
+  const refreshWindow = () => {
+    location.reload();
+  };
 
   const handleImage = async () => {
     const detections = await faceapi.detectAllFaces(
@@ -42,7 +53,6 @@ const NewPost = ({ image }) => {
     setFriends((prev) => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  console.log(friends);
   return (
     <div className="container">
       <div className="left" style={{ width, height }}>
@@ -72,6 +82,7 @@ const NewPost = ({ image }) => {
             <span className="name">{Object.values(friends) + " "}</span>
           </span>
         )}
+        <button onClick={refreshWindow}>Go Back</button>
       </div>
     </div>
   );
