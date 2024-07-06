@@ -1,6 +1,6 @@
-# Wine Store Hero Section UX UI
+# Face Detection App React
 
-![dp](https://github.com/senethmendis/wine-store-hero-section-ux-ui/blob/main/public/thumb.png)
+![dp](https://github.com/senethmendis/face-detection-react-app/blob/dev/public/Capture.PNG)
 
 ### Built With
 
@@ -8,8 +8,8 @@ frameworks/libraries used for theproject..
 
 - ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-- ![Three js](https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white)
-- ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- [face-api.js](https://github.com/justadudewhohacks/face-api.js?tab=readme-ov-file#getting-started-loading-models)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
